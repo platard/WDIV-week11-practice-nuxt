@@ -93,5 +93,8 @@ app: {
 ```
 npm run generate
 ```
-3. Copy/Move the 'dist' folder and publish/deploy it in GitHub 
+3. Publish the 'dist' folder in the gh-pages branch
+```
+git subtree push --prefix dist origin gh-pages
+``` 
 

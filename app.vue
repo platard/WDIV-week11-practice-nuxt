@@ -1,7 +1,9 @@
 <template>
   <div>
     <!-- <NuxtWelcome /> -->
-    <NuxtLink to="/">Home</NuxtLink>
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
